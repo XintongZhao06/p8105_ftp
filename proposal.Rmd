@@ -15,10 +15,21 @@ Xintong Zhao(xz3499) | Boran Zhai(bz2570)
 
 ## The tentative project title
 
-
+Digital Attention Attenuation: A Multi-Platform Study of Short-Form Video Viewer Patience
 
 ## The motivation for this project
 
+#### 1. Historical background: Attention as a new currency
+
+In the digital age of information explosion, human attention has become a scarce and fiercely contested "new currency". Short-video platforms, especially YouTube Shorts and TikTok, have completely reshaped the landscape of content consumption through their short, flat and fast features, and have raised widespread social concerns about the systematic shortening of human attention spans. We are at a crucial crossroads: How can content form, in turn, shape our cognitive habits? Understanding and quantifying this change is not only the need of academic research, but also an important review of the current digital cultural ecosystem.
+
+#### 2. Research gap: Lack of quantitative and comparative empirical analysis
+
+* Although "shortened attention span" has become a common consensus, there are still obvious gaps in rigorous academic and industry research:
+Lack of precise correlation: Few existing studies can precisely depict the quantitative relationship curve between video duration and completion rate based on massive amounts of data.
+
+* Lack of cross-platform perspective: Most analyses are confined to a single platform and fail to reveal how the ecosystems of different platforms differently shape user behavior.
+Lack of dynamic perspective: Against the backdrop of the rapid evolution of short video content, we need a snapshot of the current situation based on the latest data (such as 2025) to capture the behavioral characteristics of users at the current stage.
 
 ## The intended final products
 
