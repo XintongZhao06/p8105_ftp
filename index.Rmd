@@ -9,4 +9,4 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-This is our **[proposal](proposal.html)**
+This is our **[proposal](proposal.html)**.
