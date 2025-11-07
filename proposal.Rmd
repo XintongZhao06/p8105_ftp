@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## The group members (names and UNIs)
 
-Xintong Zhao(xz3499) | Boran Zhai(bz2570) | Yimeng Wang(yw4667)
+Xintong Zhao(xz3499) | Boran Zhai(bz2570) | Yimeng Wang(yw4667) | Chuqi Chen(cc5424)
 
 ## The tentative project title
 
@@ -92,6 +92,27 @@ All files are structured in `.csv` format and will be processed in R using packa
 
 ## Coding challenges
 
+1.Data Cleaning and Preprocessing
+
+The dataset likely contains missing values, skewed variables, and outliers. Designing a systematic cleaning pipeline while keeping the app dynamic (so users can view the effect of filters or group selections in real-time) can be challenging.
+
+2.Regression and Model Comparison Implementation
+
+Running multiple models (Linear Regression, Random Forest, XGBoost) requires careful parameter tuning and consistent data splitting. Comparing model performance and extracting feature importance for interpretability in R can be computationally intensive.
+
+3.Visualization Consistency and Interactivity
+
+The EDA and group comparison sections require various plots (correlation heatmaps, boxplots, scatter plots, line plots). Maintaining a consistent color scheme, responsive layout, and interactive features (e.g., hover info, variable selection) will require thoughtful ggplot2 + plotly + Shiny integration.
+
+
 ## The planned timeline
 
-
+| **Date** | **Task** | **Deliverable / Milestone** |
+|-----------|-----------|-----------------------------|
+| **Nov 7** | Finalize team formation and submit initial proposal. | Written proposal (including objectives, methods, and preliminary plan). |
+| **Nov 10–14** | Attend project review meeting and discuss project direction with instructor. | Receive feedback and refine project structure (EDA layout, regression approach, and ML model plan). |
+| **Nov 15–24** | Conduct **data cleaning and preprocessing** in R (handling missing values, standardizing variables, etc.). | Clean dataset ready for visualization and analysis. |
+| **Nov 25–30** | Develop **EDA visualization module** and **group comparison module** in R Shiny. | Functional Home page showing data summary, correlations, and grouped analysis results. |
+| **Dec 1–4** | Implement **regression analysis** (for completion rate and engagement rate) and **machine learning models** (linear regression, random forest, XGBoost). | Completed analytical results with performance metrics and feature importance visualization. |
+| **Dec 5–6** | Build the **recommendation & conclusion module** (how to improve short videos) and finalize webpage design. Record short screencast. | Final webpage + screencast video + written report submitted by Dec 6 (11:59 pm). |
+| **Dec 11** | Present and discuss project in class. | Participate in in-class discussion and peer review. |

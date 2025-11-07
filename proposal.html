@@ -14,7 +14,7 @@
 
 <title>Proposal</title>
 
-<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -276,7 +276,8 @@ $(document).ready(function () {
 
 <div id="the-group-members-names-and-unis" class="section level2">
 <h2>The group members (names and UNIs)</h2>
-<p>Xintong Zhao(xz3499) | Boran Zhai(bz2570) | Yimeng Wang(yw4667)</p>
+<p>Xintong Zhao(xz3499) | Boran Zhai(bz2570) | Yimeng Wang(yw4667) |
+Chuqi Chen(cc5424)</p>
 </div>
 <div id="the-tentative-project-title" class="section level2">
 <h2>The tentative project title</h2>
@@ -461,9 +462,88 @@ attributes contribute most strongly to viewer behavior.</li>
 </div>
 <div id="coding-challenges" class="section level2">
 <h2>Coding challenges</h2>
+<p>1.Data Cleaning and Preprocessing</p>
+<p>The dataset likely contains missing values, skewed variables, and
+outliers. Designing a systematic cleaning pipeline while keeping the app
+dynamic (so users can view the effect of filters or group selections in
+real-time) can be challenging.</p>
+<p>2.Regression and Model Comparison Implementation</p>
+<p>Running multiple models (Linear Regression, Random Forest, XGBoost)
+requires careful parameter tuning and consistent data splitting.
+Comparing model performance and extracting feature importance for
+interpretability in R can be computationally intensive.</p>
+<p>3.Visualization Consistency and Interactivity</p>
+<p>The EDA and group comparison sections require various plots
+(correlation heatmaps, boxplots, scatter plots, line plots). Maintaining
+a consistent color scheme, responsive layout, and interactive features
+(e.g., hover info, variable selection) will require thoughtful ggplot2 +
+plotly + Shiny integration.</p>
 </div>
 <div id="the-planned-timeline" class="section level2">
 <h2>The planned timeline</h2>
+<table>
+<colgroup>
+<col width="21%" />
+<col width="21%" />
+<col width="56%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Date</strong></th>
+<th><strong>Task</strong></th>
+<th><strong>Deliverable / Milestone</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Nov 7</strong></td>
+<td>Finalize team formation and submit initial proposal.</td>
+<td>Written proposal (including objectives, methods, and preliminary
+plan).</td>
+</tr>
+<tr class="even">
+<td><strong>Nov 10–14</strong></td>
+<td>Attend project review meeting and discuss project direction with
+instructor.</td>
+<td>Receive feedback and refine project structure (EDA layout,
+regression approach, and ML model plan).</td>
+</tr>
+<tr class="odd">
+<td><strong>Nov 15–24</strong></td>
+<td>Conduct <strong>data cleaning and preprocessing</strong> in R
+(handling missing values, standardizing variables, etc.).</td>
+<td>Clean dataset ready for visualization and analysis.</td>
+</tr>
+<tr class="even">
+<td><strong>Nov 25–30</strong></td>
+<td>Develop <strong>EDA visualization module</strong> and <strong>group
+comparison module</strong> in R Shiny.</td>
+<td>Functional Home page showing data summary, correlations, and grouped
+analysis results.</td>
+</tr>
+<tr class="odd">
+<td><strong>Dec 1–4</strong></td>
+<td>Implement <strong>regression analysis</strong> (for completion rate
+and engagement rate) and <strong>machine learning models</strong>
+(linear regression, random forest, XGBoost).</td>
+<td>Completed analytical results with performance metrics and feature
+importance visualization.</td>
+</tr>
+<tr class="even">
+<td><strong>Dec 5–6</strong></td>
+<td>Build the <strong>recommendation &amp; conclusion module</strong>
+(how to improve short videos) and finalize webpage design. Record short
+screencast.</td>
+<td>Final webpage + screencast video + written report submitted by Dec 6
+(11:59 pm).</td>
+</tr>
+<tr class="odd">
+<td><strong>Dec 11</strong></td>
+<td>Present and discuss project in class.</td>
+<td>Participate in in-class discussion and peer review.</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 
